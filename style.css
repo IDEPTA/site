@@ -390,6 +390,7 @@ footer{
 @media(max-width: 900px){
 	body{
 		overflow-x: hidden;
+		min-width: 100%;
 	}
 	.menu_active_block{
 		overflow: hidden;
@@ -487,7 +488,12 @@ footer{
 	}
 	.active_card{
 		display: flex;
-		
+	}
+	.cards_block{
+		width: 95%;
+	}
+	.card{
+		width: 85%;
 	}
 	/*swiper*/
 	.slider_block .midle_title{
@@ -608,4 +614,5 @@ footer{
 	.footer_columns p{
 		font-size: 25px;
 	}
+
 }
