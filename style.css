@@ -388,6 +388,10 @@ footer{
 
 
 @media(max-width: 900px){
+	body{
+		overflow-x: hidden;
+		min-width: 100%;
+	}
 	.menu_active_block{
 		overflow: hidden;
 	}
@@ -605,5 +609,4 @@ footer{
 	.footer_columns p{
 		font-size: 25px;
 	}
-}
 }
