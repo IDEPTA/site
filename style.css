@@ -527,8 +527,8 @@ footer{
 		display: none;
 	}
 	.image_slide{
-		width: 350px;
-		height: 250px;
+		width: 300px;
+		height: 210px;
 	}
 	.hidden_link{
 		display: inline;
@@ -613,12 +613,4 @@ footer{
 	.footer_columns p{
 		font-size: 25px;
 	}
-@media(max-width: 380px){
-	body{
-		overflow-x: hidden;
-	}
-	.swiper-slide{
-		border: 1px solid red;
-	}
-}	
 }
