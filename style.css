@@ -593,6 +593,7 @@ footer{
 		padding: 0px 0px 45px;
 	}
 	.footer_columns{
+		margin: 0px;
 		width: 100%;
 	}
 	.footer_columns .midle_title{
