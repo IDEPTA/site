@@ -34,7 +34,6 @@ cardButton.addEventListener('click',function(){
   }
 })
 
-console.log(lines)
 navPanel.addEventListener('click',function(){
   for(i=0;i<4;i++){
     if ((i==0)||(i==3)){
