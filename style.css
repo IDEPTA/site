@@ -393,7 +393,7 @@ footer{
 		overflow-x: hidden;
 	}
 	.menu_active_block{
-		overflow-y: hidden;
+		overflow: hidden;
 	}
 	/*text*/
 	.title{
@@ -413,7 +413,7 @@ footer{
 		height: 70px;
 	}
 	.nav_bar .midle_title{
-		right: 15px;
+		right: 0px;
 	}
 	.nav_active{
 		transition: 0.4s;
