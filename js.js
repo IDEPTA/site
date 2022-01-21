@@ -5,8 +5,9 @@
   },
   simulateTouch:false, 
 });
-let paginationsBlocks,slides,swiperWrapper,i,cardButton,cards,navPanel,lines;
+let paginationsBlocks,slides,swiperWrapper,i,cardButton,cards,navPanel,lines,burger;
 let body;
+burger = document.querySelector('.burger');
 body = document.querySelector('body');
 navPanel = document.querySelector('nav');
 lines = document.querySelectorAll('.burger_line')
@@ -34,7 +35,7 @@ cardButton.addEventListener('click',function(){
   }
 })
 
-navPanel.addEventListener('click',function(){
+burger.addEventListener('click',function(){
   body.classList.toggle('menu_active_block');  
   for(i=0;i<4;i++){
     if ((i==0)||(i==3)){
