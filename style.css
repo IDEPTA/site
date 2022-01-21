@@ -613,4 +613,12 @@ footer{
 	.footer_columns p{
 		font-size: 25px;
 	}
+@media(max-width: 380px){
+	body{
+		overflow-x: hidden;
+	}
+	.swiper-slide{
+		border: 1px solid red;
+	}
+}	
 }
