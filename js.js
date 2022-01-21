@@ -35,6 +35,7 @@ cardButton.addEventListener('click',function(){
 })
 
 navPanel.addEventListener('click',function(){
+  body.classList.toggle('menu_active_block');  
   for(i=0;i<4;i++){
     if ((i==0)||(i==3)){
       lines[i].classList.toggle('burger_line_hidden');
@@ -47,5 +48,4 @@ navPanel.addEventListener('click',function(){
     }    
   }
   navPanel.classList.toggle('nav_active');
-  body.classList.toggle('menu_active_block');
 })
