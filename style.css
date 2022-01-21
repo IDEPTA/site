@@ -331,7 +331,8 @@ nav a:nth-child(5){
 	box-shadow: 10px 10px  #FED100;
 }
 .form_input{
-	outline: none;
+	-webkit-border-radius: 0px;
+	outline:none;
 	height: 40px;
 	margin-top: 50px;
 	margin-right: 60px;
