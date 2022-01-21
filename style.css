@@ -605,9 +605,5 @@ footer{
 	.footer_columns p{
 		font-size: 25px;
 	}
-@media(max-width: 375px){
-	body{
-		min-width: 400px;
-	}
 }
 }
