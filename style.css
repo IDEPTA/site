@@ -413,7 +413,7 @@ footer{
 		height: 70px;
 	}
 	.nav_bar .midle_title{
-		right: 0px;
+		right: 15px;
 	}
 	.nav_active{
 		transition: 0.4s;
@@ -495,11 +495,8 @@ footer{
 		width: 80%;
 		text-align: center;
 	}
-	.pagination_blocks{
-		
-	}
 	.pagination_block{
-		margin: 5px;
+		margin: 0px;
 		width:100px;
 		height:50px;
 		border: none;
