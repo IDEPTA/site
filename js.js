@@ -20,8 +20,7 @@ swiperWrapper = document.querySelector('.swiper');
 swiperWrapper.addEventListener('click',function(e){
   for (i=0;i<3;i++){
     if (slides[i].closest('.swiper-slide-active')){
-      //paginationsBlocks[i].classList.add('active_pagination_block');
-      console.log(i);
+      paginationsBlocks[i].classList.add('active_pagination_block');
     }
     else{
       paginationsBlocks[i].classList.remove('active_pagination_block');
@@ -31,7 +30,6 @@ swiperWrapper.addEventListener('click',function(e){
 })
 cardButton.addEventListener('click',function(){
   for(i=0;i<2;i++){
-    console.log(i,':',cards[i]);
     cards[i].classList.toggle('active_card');
   }
 })
