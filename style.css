@@ -7,7 +7,7 @@
 	color: #333333;
 }
 body{
-	-webkit-overflow-x: hidden;
+	-webkit-margin-end: 0px;
 	overflow-x: hidden;
 }
 /*Кнопки*/
