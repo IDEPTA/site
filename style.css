@@ -242,10 +242,7 @@ nav a:nth-child(5){
 .swiper-slide p{
 	margin: 10px 0px;
 }
-.swiper-slide p img{
-	margin-right: 10px;
-	-webkit-margin-right: 10px;
-}
+
 .text_block .button_two{
 	align-self: center;
 	margin-top: 25px;
@@ -548,7 +545,7 @@ footer{
 		align-items: center;
 	}
 	.review_block{
-		margin:10px 30px;
+		margin:10px 0px;
 		width:100%;
 	}
 	.review_block:nth-child(2),.review_block:nth-child(3){
