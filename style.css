@@ -392,6 +392,7 @@ footer{
 
 @media(max-width: 900px){
 	body{
+		max-width: 900px;
 		overflow-x: hidden;
 	}
 	.menu_active_block{
