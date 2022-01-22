@@ -397,8 +397,16 @@ footer{
 	font-weight: 500;
 }
 
-
-@media(max-width: 900px){
+@media(max-width: 1620px){
+	.swiper{
+		width: 75%;
+		border: 1px solid red;
+	}
+	.form .button_one{
+		left: 80%;
+	}
+}
+@media(max-width: 1150px){
 	body{
 		overflow-x: hidden;
 		min-width: 100%;
