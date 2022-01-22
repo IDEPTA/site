@@ -400,7 +400,6 @@ footer{
 @media(max-width: 1620px){
 	.swiper{
 		width: 75%;
-		border: 1px solid red;
 	}
 	.form .button_one{
 		left: 80%;
