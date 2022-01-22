@@ -418,7 +418,7 @@ footer{
 	}
 	/*nav*/
 	.nav_bar{
-		z-index: 2;
+		z-index: 3;
 		background-color:#FED100;
 		width: 100%;
 		position: fixed;
@@ -472,7 +472,6 @@ footer{
 		padding-top: 20%;
 	}
 	.banner .text_block{
-		z-index: 3;
 		align-items: center;
 		width: 100%;
 	}
