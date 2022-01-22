@@ -13,6 +13,17 @@ body{
     width: 100%; 
     overflow-x: hidden;
 }
+/*scrollbar*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background-color:#FED100;
+}
+::-webkit-scrollbar-thumb {
+	background:#303030;
+	border-radius: 10px;
+}
 /*Кнопки*/
 .button_one{
 	background-color: #FF352B;
@@ -398,6 +409,18 @@ footer{
 }
 
 @media(max-width: 1620px){
+/*banner*/
+	.images img:nth-child(1){
+		width: 80%;
+		z-index: 1;
+	}
+	.images img:nth-child(2){
+		width: 40%;
+		left: 40%;
+		position: absolute;
+		z-index: 0;
+	}
+/*swiper*/
 	.swiper{
 		width: 75%;
 	}
@@ -405,7 +428,7 @@ footer{
 		left: 80%;
 	}
 }
-@media(max-width: 1150px){
+@media(max-width: 995px){
 	body{
 		overflow-x: hidden;
 		min-width: 100%;
