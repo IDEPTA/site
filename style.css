@@ -418,6 +418,10 @@ footer{
 	}
 	/*nav*/
 	.nav_bar{
+		z-index: 2;
+		background-color:#FED100;
+		width: 100%;
+		position: fixed;
 		height: 70px;
 	}
 	.nav_bar .midle_title{
@@ -464,7 +468,11 @@ footer{
 		opacity:0;
 	}
 	/*header*/
+	.banner{
+		padding-top: 20%;
+	}
 	.banner .text_block{
+		z-index: 3;
 		align-items: center;
 		width: 100%;
 	}
