@@ -5,10 +5,7 @@
   },
   simulateTouch:false, 
 });
-let paginationsBlocks,slides,swiperWrapper,i,cardButton,cards,navPanel,lines,burger;
-let body;
-burger = document.querySelector('.burger');
-body = document.querySelector('body');
+let paginationsBlocks,slides,swiperWrapper,i,cardButton,cards,navPanel,lines;
 navPanel = document.querySelector('nav');
 lines = document.querySelectorAll('.burger_line')
 cards = document.querySelectorAll('.dop_card');
@@ -35,8 +32,7 @@ cardButton.addEventListener('click',function(){
   }
 })
 
-burger.addEventListener('click',function(){
-  body.classList.toggle('menu_active_block');  
+navPanel.addEventListener('click',function(){
   for(i=0;i<4;i++){
     if ((i==0)||(i==3)){
       lines[i].classList.toggle('burger_line_hidden');

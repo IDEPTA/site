@@ -6,6 +6,9 @@
 	font-size: 18px;
 	color: #333333;
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
     width: 100%; 
     overflow-x: hidden;
@@ -366,17 +369,25 @@ footer{
 	flex-wrap: wrap;
 }
 .footer_columns{
-	margin: 0px 40px;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
 	width: 250px;
 }
 .footer_columns:first-child{
 	text-align: left;
 }
-.footer_columns p{
-	margin: 20px 0px;
+.footer_columns:first-child p{
+	margin: 10px 0px;
+}
+.footer_columns a{
+	text-decoration: none;
+	margin: 10px 0px;
+}
+.footer_columns:nth-child(2){
+	align-items: center;
 }
 .footer_columns:nth-child(3){
+	align-items: center;
 	text-decoration: underline;
 }
 .made_text{
@@ -391,9 +402,6 @@ footer{
 	body{
 		overflow-x: hidden;
 		min-width: 100%;
-	}
-	.menu_active_block{
-		overflow: hidden;
 	}
 	/*text*/
 	.title{
@@ -416,6 +424,7 @@ footer{
 		right: 15px;
 	}
 	.nav_active{
+		position: fixed;
 		transition: 0.4s;
 		left: 0%;
 	}
@@ -434,6 +443,7 @@ footer{
 		font-size: 22px;
 	}
 	nav a:nth-child(5){
+		font-size: 18px;
 		display: inline;
 	}	
 	.burger{
@@ -475,7 +485,7 @@ footer{
 	/*question*/
 	.question_block{
 		margin: 10px 0px;
-		width: 100%;
+		width: 95%;
 	}
 	.number{
 		margin: 0px 20px;
@@ -547,7 +557,7 @@ footer{
 		align-items: center;
 	}
 	.review_block{
-		margin:10px 0px;
+		margin:10px 40px;
 		width:100%;
 	}
 	.review_block:nth-child(2),.review_block:nth-child(3){
@@ -598,7 +608,8 @@ footer{
 		padding: 0px 0px 45px;
 	}
 	.footer_columns{
-		margin: 0px;
+		align-items: center;
+		margin: 10px 0px;
 		width: 100%;
 	}
 	.footer_columns .midle_title{
@@ -607,12 +618,15 @@ footer{
 	.footer_columns:first-child{
 		text-align: center;
 	}
+	.footer_columns:first-child p:nth-child(1){
+		font-size: 28px;
+		margin: 15px 0px;
+	}
 	.footer_columns:first-child p:nth-child(2),
 	.footer_columns:first-child p:nth-child(3){
 		display: none;
 	}
-	.footer_columns p{
-		font-size: 25px;
+	.footer_columns a{
+		font-size: 20px;
 	}
-
 }
